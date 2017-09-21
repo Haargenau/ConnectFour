@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.martin.connectfour.PlayActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="0, 1, 2, 3, 4 ,5 ,6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_column="0"
+                android:text="|\nv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn0"
+                android:onClick="0"/>
+
+
+            <Button
+                android:layout_column="0"
+                android:text="|\nv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn1"
+                android:onClick="1"/>
+
+            <Button
+                android:layout_column="0"
+                android:text="|\nv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn2"
+                android:onClick="2"/>
+
+            <Button
+                android:layout_column="0"
+                android:text="|\nv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn3"
+                android:onClick="3"/>
+
+            <Button
+                android:layout_column="0"
+                android:text="|\nv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn4"
+                android:onClick="4"/>
+
+            <Button
+                android:layout_column="0"
+                android:text="|\nv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn5"
+                android:onClick="5"/>
+
+            <Button
+                android:layout_column="0"
+                android:text="|\nv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn6"
+                android:onClick="6"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_column="0"
+                android:id="@+id/v50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="1"
+                android:id="@+id/v51"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="2"
+                android:id="@+id/v52"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="3"
+                android:id="@+id/v53"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="4"
+                android:id="@+id/v54"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="5"
+                android:id="@+id/v55"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="6"
+                android:id="@+id/v56"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_column="0"
+                android:id="@+id/v40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="1"
+                android:id="@+id/v41"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="2"
+                android:id="@+id/v42"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="3"
+                android:id="@+id/v43"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="4"
+                android:id="@+id/v44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="5"
+                android:id="@+id/v45"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="6"
+                android:id="@+id/v46"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_column="0"
+                android:id="@+id/v30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="1"
+                android:id="@+id/v31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="2"
+                android:id="@+id/v32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="3"
+                android:id="@+id/v33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="4"
+                android:id="@+id/v34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="5"
+                android:id="@+id/v35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="6"
+                android:id="@+id/v36"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_column="0"
+                android:id="@+id/v20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="1"
+                android:id="@+id/v21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="2"
+                android:id="@+id/v22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="3"
+                android:id="@+id/v23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="4"
+                android:id="@+id/v24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="5"
+                android:id="@+id/v25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="6"
+                android:id="@+id/v26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_column="0"
+                android:id="@+id/v10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="1"
+                android:id="@+id/v11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="2"
+                android:id="@+id/v12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="3"
+                android:id="@+id/v13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="4"
+                android:id="@+id/v14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="5"
+                android:id="@+id/v15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="6"
+                android:id="@+id/v16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_column="0"
+                android:id="@+id/v0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="1"
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="2"
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="3"
+                android:id="@+id/v3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="4"
+                android:id="@+id/v4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="5"
+                android:id="@+id/v5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+            <ImageView
+                android:layout_column="6"
+                android:id="@+id/v6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/idle"/>
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+
